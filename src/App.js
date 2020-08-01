@@ -2,10 +2,12 @@ import React from 'react';
 import logo from './logo.svg';
 import { Counter } from './features/counter/Counter';
 import './App.css';
-
+import MyCounter from './features/mycounter/MyCounter'
 function App() {
   return (
     <div className="App">
+      <MyCounter/>
+
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <Counter />
